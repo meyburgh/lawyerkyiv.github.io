@@ -1,0 +1,630 @@
+/* small - normal screen size */
+/* iPads (portrait and landscape) ----------- */
+@media screen and (min-width: 511px) and (max-width: 768px) {
+  /* only for special large size mobile screen */
+  #header {
+    /* padding: 0;
+    margin: 0;
+    height: auto;
+    font-size: 2rem;
+    background-color: red; */
+    /* background-color: red; */
+  }
+  #header .container {
+    /* overright bootstrap rule */
+    /* flex-wrap: nowrap !important; */
+  }
+
+  .tamara-logo {
+    /* max-width: 300px;
+    width: 250px;
+    margin: auto;
+    object-fit: contain; */
+  }
+  .nav__slide {
+    /* width: 100%; */
+  }
+  .nav__container {
+    /* margin-left: -60px; */
+  }
+
+  .nav__container .nav__lang a {
+    /* font-size: 2rem; */
+  }
+  /* overwrite inline style */
+  .fa-signal {
+    /* font-size: 4rem !important;
+    height: 25px !important;
+    width: 100%;
+    max-width: max-content; */
+  }
+  .img__pos {
+    /* max-width: 800px;
+    width: 700px; */
+  }
+  .img__pos + img,
+  .rec01,
+  .rec01 + img {
+    /* width: 30vw;
+    object-fit: contain; */
+  }
+  .rec01 {
+    top: -82vh;
+    left: 46vw;
+  }
+
+  .rec01 + img {
+    top: 50vh;
+    left: 79vw;
+  }
+  .img__pos + img {
+    /* top: 66vh;
+    left: 100px; */
+  }
+  #hero {
+    height: auto;
+    padding: 0;
+  }
+  #hero .container {
+    /* height: fit-content; */
+  }
+  #hero .container > div {
+    /* display: flex;
+    flex-direction: column;
+    height: max-content;
+    align-items: center;
+    align-content: space-between; */
+  }
+
+  #hero h1 {
+    /* font-size: 5.2rem;
+    padding: 0.25rem; */
+  }
+
+  #hero p {
+    /* font-size: 2.5rem;
+    padding-left: 0.25rem; */
+  }
+
+  .nav__container {
+    /* display: flex; */
+  }
+
+  .btn-container {
+    /* width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 10px; */
+  }
+
+  .btn-get-started,
+  .btn-get-started2 {
+    /* font-size: 1.5rem; */
+  }
+
+  .btn-get-started {
+    /* font-weight: bold; */
+  }
+
+  .modal__box {
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sm__scroll__x {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    overflow-x: scroll;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  /* ====== SERVICES SECTION ====== */
+
+  .service__box > .icon-box {
+    margin-top: 50px;
+  }
+  .service__box:first-child {
+    margin-top: 20px;
+  }
+  .service__card {
+    flex-direction: column;
+  }
+
+  .service__modal__form__overlay .close-modal {
+    top: 150px;
+    right: 40px;
+  }
+
+  .sm__hide__animated {
+    display: none;
+  }
+  #about {
+    padding-bottom: 0;
+    font-size: 2rem;
+  }
+  .sm__about__bullet__box {
+    height: fit-content;
+    margin-top: -80px;
+    justify-content: center;
+    text-align: center;
+    /* overwrite bootstrap rule */
+    width: 100% !important;
+  }
+  .sm__about__bullet__box > h2 {
+    font-size: 3rem;
+  }
+  .sm__about__bullet__box,
+  .center__bullet__head {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+  }
+  .bullet__first {
+    margin-top: 20px;
+  }
+
+  .center__bullet__head::before {
+    position: absolute;
+    content: '';
+    height: 70px;
+    border: 1.2px solid #152a47;
+    margin-bottom: 180px;
+  }
+  .center__bullet__head > .list-bullet {
+    margin-left: 0px;
+  }
+
+  .bullet__first::before,
+  #first-bullet::after {
+    border: 0;
+  }
+
+  .sm__about__bullet__box ul li {
+    margin-top: 100px;
+  }
+  .sm__about__bullet__box ul li:nth-child(1) {
+    margin-top: -50px;
+  }
+
+  .about {
+    margin-top: 40px;
+  }
+
+  .footer__menu {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    margin-left: -15px;
+  }
+
+  .footer__menu li a:link {
+    width: fit-content;
+    font-size: 1.32rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .copyright {
+    margin-bottom: -3.2rem;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 510px) {
+  /* Styles */
+  #header {
+    /* padding: 0;
+    margin: 0;
+    height: auto;
+    font-size: 1.5rem; */
+    /* background-color: red; */
+  }
+  #header .container {
+    /* overright bootstrap rule */
+    /* flex-wrap: nowrap !important; */
+  }
+
+  .tamara-logo {
+    /* max-width: 250px;
+    width: 180px;
+    margin: auto;
+    object-fit: contain; */
+  }
+  .nav__slide {
+    width: 100%;
+  }
+  .nav__container {
+    /* margin-left: -60px; */
+  }
+
+  .nav__container .nav__lang a {
+    /* font-size: 1.5rem; */
+  }
+
+  .img__pos {
+    position: relative;
+    backdrop-filter: blur(5px);
+    top: -70px;
+    width: 600px;
+    object-fit: contain;
+  }
+
+  .img__pos + img,
+  .rec01,
+  .rec01 + img {
+    width: 20vw;
+    object-fit: contain;
+  }
+  .rec01 {
+    top: -55vh;
+    left: 50vw;
+  }
+
+  .rec01 + img {
+    top: 48vh;
+    left: 90vw;
+  }
+  .img__pos + img {
+    /* top: 59vh;
+    left: 20vw; */
+  }
+
+  #hero {
+    height: auto;
+    padding: 0;
+  }
+  #hero .container {
+    height: fit-content;
+  }
+  #hero .container > div {
+    /* display: flex;
+    flex-direction: column;
+    height: max-content;
+    align-items: center;
+    align-content: space-between; */
+  }
+
+  #hero h1 {
+    /* font-size: 2.8rem;
+    padding: 0.15rem; */
+  }
+
+  .hero-header {
+    margin-top: -150px !important;
+  }
+
+  .btn-container {
+    margin-left: 0;
+  }
+
+  .nav__container {
+    display: flex;
+  }
+
+  .modal__box {
+    width: 97%;
+    margin: auto;
+  }
+
+  .sm__scroll__x {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    overflow-x: scroll;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  /* ====== SERVICES SECTION ====== */
+
+  .service__box > .icon-box {
+    margin-top: 50px;
+  }
+  .service__box:first-child {
+    margin-top: 20px;
+  }
+  .service__card {
+    flex-direction: column;
+  }
+
+  .service__modal__form__overlay .close-modal {
+    top: 150px;
+    right: 40px;
+  }
+
+  .sm__hide__animated {
+    display: none;
+  }
+  /* ====== ABOUT SECTION ====== */
+  #about {
+    padding-bottom: 0;
+  }
+  .sm__about__bullet__box {
+    height: fit-content;
+    margin-top: -80px;
+    justify-content: center;
+    text-align: center;
+    /* overwrite bootstrap rule */
+    width: 100% !important;
+  }
+  .sm__about__bullet__box,
+  .center__bullet__head {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+  }
+  .bullet__first {
+    margin-top: 20px;
+  }
+
+  .center__bullet__head::before {
+    position: absolute;
+    content: '';
+    height: 70px;
+    border: 1.2px solid #152a47;
+    margin-bottom: 180px;
+  }
+  .center__bullet__head > .list-bullet {
+    margin-left: 0px;
+  }
+
+  .bullet__first::before,
+  #first-bullet::after {
+    border: 0;
+  }
+
+  .sm__about__bullet__box ul li {
+    margin-top: 100px;
+  }
+  .sm__about__bullet__box ul li:nth-child(1) {
+    margin-top: -50px;
+  }
+
+  .about {
+    margin-top: 40px;
+  }
+
+  .footer__menu {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100vmin;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    margin-left: -15px;
+  }
+
+  .footer__menu li a:link {
+    width: fit-content;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .copyright {
+    margin-bottom: -3.2rem;
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+/* smallest screen size */
+@media only screen and (max-width: 360px) {
+  /* Styles */
+  #header {
+    padding: 0;
+    margin: 0;
+    height: auto;
+    font-size: 1.2rem;
+  }
+  #header .container {
+    /* overright bootstrap rule */
+    flex-wrap: nowrap !important;
+  }
+
+  .tamara-logo {
+    max-width: 200px;
+    width: 150px;
+    margin: auto;
+    object-fit: contain;
+  }
+  .nav__slide {
+    width: 100%;
+  }
+  .nav__container {
+    margin-left: -60px;
+  }
+
+  .nav__container .nav__lang a {
+    font-size: 1.2rem;
+  }
+
+  .img__pos {
+    position: relative;
+    backdrop-filter: blur(5px);
+    top: 0vh;
+  }
+
+  .img__pos + img,
+  .rec01,
+  .rec01 + img {
+    width: 20vw;
+    object-fit: contain;
+  }
+  .rec01 {
+    top: -50vh;
+    left: 48vw;
+  }
+
+  .rec01 + img {
+    top: 38vh;
+    left: 89vw;
+  }
+  .img__pos + img {
+    top: 54vh;
+    left: 24vw;
+  }
+  .hero-col1 {
+    margin-left: 0;
+    margin-top: -10rem;
+  }
+  #hero {
+    height: auto;
+    padding: 0;
+  }
+  #hero .container {
+    height: fit-content;
+  }
+  #hero .container > div {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    align-items: center;
+    align-content: space-between;
+  }
+
+  #hero h1 {
+    font-size: 2.1rem;
+    padding: 0.25rem;
+  }
+
+  .hero-col1 p {
+    padding-left: 0.25rem;
+    font-size: 1.5rem;
+  }
+
+  .btn-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 10px;
+  }
+
+  .btn-get-started,
+  .btn-get-started2 {
+    font-size: 0.8rem;
+  }
+
+  .btn-get-started {
+    font-weight: bold;
+  }
+
+  .modal__box {
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sm__scroll__x {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    overflow-x: scroll;
+    width: 100%;
+    margin: 0;
+    bottom: 0;
+    top: 0;
+  }
+
+  /* ====== SERVICES SECTION ====== */
+
+  .service__box > .icon-box {
+    margin-top: 50px;
+  }
+  .service__box:first-child {
+    margin-top: 20px;
+  }
+  .service__card {
+    flex-direction: column;
+  }
+
+  .service__modal__form__overlay .close-modal {
+    top: 120px;
+    right: 40px;
+  }
+
+  .sm__hide__animated {
+    display: none;
+  }
+  /* ====== ABOUT SECTION ====== */
+  #about {
+    padding-bottom: 0;
+  }
+  .sm__about__bullet__box {
+    height: fit-content;
+    margin-top: -80px;
+    justify-content: center;
+    text-align: center;
+    /* overwrite bootstrap rule */
+    width: 100% !important;
+  }
+  .sm__about__bullet__box,
+  .center__bullet__head {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+  }
+  .bullet__first {
+    margin-top: 20px;
+  }
+
+  .center__bullet__head::before {
+    position: absolute;
+    content: '';
+    height: 70px;
+    border: 1.2px solid #152a47;
+    margin-bottom: 180px;
+  }
+  .center__bullet__head > .list-bullet {
+    margin-left: 0px;
+  }
+
+  .bullet__first::before,
+  #first-bullet::after {
+    border: 0;
+  }
+
+  .sm__about__bullet__box ul li {
+    margin-top: 100px;
+  }
+  .sm__about__bullet__box ul li:nth-child(1) {
+    margin-top: -50px;
+  }
+
+  .about {
+    margin-top: 40px;
+  }
+
+  .footer__menu {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100vmin;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    margin-left: -15px;
+  }
+
+  .footer__menu li a:link {
+    width: fit-content;
+    font-size: 9px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .copyright {
+    margin-bottom: -3.2rem;
+  }
+}
